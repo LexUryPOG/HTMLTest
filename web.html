@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Popular Movies</h1>
+    </header>
+    <main id="main">
+        <div class="container"> 
+            <div class="sort-container">
+                <div class="sort-button">
+                    <button onclick="changeVisibility()" class="sort-button"><span style="color: darkgrey;">Sort</span> ></button>
+                </div>
+                <div id="sort-option" class="sort-option">
+                    <p>Sort By</p>
+                    <select name="" id="">
+                        <option value="">None</option>
+                        <option value="">Descending</option>
+                        <option value="">Ascending</option>
+                    </select>
+                </div>
+            </div>
+            <div id="movie-container"></div>
+        </div> 
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
